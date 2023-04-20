@@ -11,7 +11,7 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
       </Head>
-      <header aria-label="Site Header" className="bg-white">
+      <header aria-label="Site Header" className="bg-indigo-900">
   <div
     className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8"
   >
@@ -74,7 +74,7 @@ export default function Home() {
       <div className="flex items-center gap-4">
         <div className="sm:flex sm:gap-4">
           <a
-            className="block rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-teal-700"
+            className="block rounded-md bg-orange-300 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-teal-700"
             href="/"
           >
             Login
@@ -115,20 +115,23 @@ export default function Home() {
 
 
 
-<div className="hero min-h-screen bg-base-200">
-  <div className="hero-content flex-col lg:flex-row-reverse">
-    <img src="/images/stock/photo-1635805737707-575885ab0820.jpg" className="max-w-sm rounded-lg shadow-2xl" />
-    <div>
-      <h1 className="text-5xl text-blue-800 font-bold">Box Office News!</h1>
-      <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-      <Link href="/news"><button className="btn btn-primary">Get Started</button></Link>
-    </div>
-  </div>
-</div>
+<section>
+	<div className="dark:bg-violet-400">
+		<div className="container flex flex-col items-center px-4 py-16 pb-24 mx-auto text-center lg:pb-56 md:py-32 md:px-10 lg:px-32 dark:text-gray-900">
+			<h1 className="text-5xl font-bold leading-none sm:text-6xl xl:max-w-3xl dark:text-gray-900">Provident blanditiis cum exercitationem</h1>
+			<p className="mt-6 mb-8 text-lg sm:mb-12 xl:max-w-3xl dark:text-gray-900">Cupiditate minima voluptate temporibus quia? Architecto beatae esse ab amet vero eaque explicabo!</p>
+			<div className="flex flex-wrap justify-center">
+				<button type="button" className="px-8 py-3 m-2 text-lg font-semibold rounded dark:bg-gray-800 dark:text-gray-50">Get started</button>
+				<button type="button" className="px-8 py-3 m-2 text-lg border rounded dark:border-gray-700 dark:text-gray-900">Learn more</button>
+			</div>
+		</div>
+	</div>
+	<img src="assets/jpg/businessimage.jpg" alt="" className="w-5/6 mx-auto mb-12 -mt-20 rounded-lg shadow-md lg:-mt-40 dark:bg-gray-500" />
+</section>
 
 
 
-<section className="dark:bg-gray-800 dark:text-gray-100">
+<section className="dark:bg-violet-900 dark:text-gray-100">
 	<div className="container px-6 py-12 mx-auto">
 		<div className="grid items-center gap-4 xl:grid-cols-5">
 			<div className="max-w-2xl mx-auto my-8 space-y-4 text-center xl:col-span-2 xl:text-left">
@@ -187,7 +190,7 @@ export default function Home() {
 	</div>
 </section>
 
-<section className="dark:bg-gray-800 dark:text-gray-100">
+<section className="dark:bg-blue-900 dark:text-gray-100">
 	<div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8">
 		<h2 className="mb-12 text-4xl font-bold leading-none text-center sm:text-5xl">Frequently Asked Questions</h2>
 		<div className="divide-y divide-gray-700">
