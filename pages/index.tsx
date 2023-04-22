@@ -11,7 +11,7 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
       </Head>
-      <header aria-label="Site Header" className="bg-yellow-200">
+      <header aria-label="Site Header" className="bg-yellow-100">
   <div
     className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8"
   >
@@ -81,7 +81,7 @@ export default function Home() {
           </a>
 
           <a
-            className="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600 transition hover:text-teal-600/75 sm:block"
+            className="hidden rounded-md bg-orange-300 px-5 py-2.5 text-sm font-medium text-white transition hover:text-teal-600/75 sm:block"
             href="/"
           >
             Register
@@ -121,7 +121,7 @@ export default function Home() {
     <div>
       <h1 className="text-5xl text-teal-700 font-bold">Box Office News!</h1>
       <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-      <Link href="/news"><button className="btn bg-yellow-200 text-white transition hover:bg-teal-700">Get Started</button></Link>
+      <Link href="/news"><button className="btn bg-yellow-100 text-teal-700 transition hover:bg-teal-700">Get Started</button></Link>
     </div>
   </div>
 </div>
