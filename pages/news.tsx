@@ -6,7 +6,6 @@ export default function Home() {
 
   return (
 
-
   <div className="bg-blue-950">
 
 <header aria-label="Site Header" className="border-b border-gray-100">
@@ -152,8 +151,8 @@ export default function Home() {
       <div className="relative z-10 lg:py-16">
         <div className="relative h-64 sm:h-80 lg:h-full">
           <img
-            alt="New York"
-            src="https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt="London"
+            src="https://images.unsplash.com/photo-1549483249-f0b359d1e289?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
             className="absolute inset-0 h-full w-full object-cover hover:shadow-2xl"
           />
         </div>

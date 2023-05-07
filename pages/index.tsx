@@ -153,7 +153,7 @@ export default function Home() {
       <div className="relative z-10 lg:py-16">
         <div className="relative h-64 sm:h-80 lg:h-full">
           <img
-            alt="House"
+            alt="London"
             src="https://images.unsplash.com/photo-1602875052744-1f887a0f6956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1344&q=80"
             className="absolute inset-0 h-full w-full object-cover hover:shadow-2xl"
           />
