@@ -4,6 +4,7 @@ Video demo: https://photos.app.goo.gl/7GFz4tiuuAnsjXCF6
 
 The quality may appear lower on Google photos initially. If it is given a short while to fully load it will play in high definition.
 
+*Source code has changed and is in the process of being updated
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
