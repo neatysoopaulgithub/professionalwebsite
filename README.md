@@ -2,7 +2,7 @@ An industry grade professional website built with Next JS, Tailwind CSS and Hype
 
 Video demo: https://photos.app.goo.gl/7GFz4tiuuAnsjXCF6
 
-The quality may appear lower on Google photos initially. If it is given a short while to fully load it will play in high definition.
+The quality may appear lower on Google photos initially. If given a short while to fully load it will play in high definition.
 
 *Source code has changed and is in the process of being updated
 
